@@ -10,7 +10,7 @@ on:
 
 env:
     AWS_REGION: us-east-1
-    ECR_REPOSITORY: mreg
+    ECR_REPOSITORY: myreg
     EKS_CLUSTER: vprofile-eks
 
 
