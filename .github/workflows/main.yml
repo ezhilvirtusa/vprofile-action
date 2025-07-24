@@ -13,7 +13,6 @@ env:
     ECR_REPOSITORY: myreg
     EKS_CLUSTER: vprofile-eks
 
-
 jobs:
     Testing:
         runs-on: ubuntu-latest
