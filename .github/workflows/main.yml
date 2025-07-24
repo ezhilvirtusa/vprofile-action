@@ -3,8 +3,9 @@ on: workflow_dispatch
 
 env:
     AWS_REGION: us-east-1
-    ECR_REPOSITORY: ${{ secrets.ECR_REPOSITORY }}
-    ECR_CLUSTER: ${{ secrets.ECR_CLUSTER }}
+    ECR_REPOSITORY: myreg
+    ECR_CLUSTER: vprofile-eks
+
 
 
 jobs:
