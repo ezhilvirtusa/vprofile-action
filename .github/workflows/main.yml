@@ -34,7 +34,7 @@ jobs:
                 distribution: 'temurin'
             
             - name: setup sonarqube
-              uses: warchand/setup-sonar-scanner@v7
+              uses: warchant/setup-sonar-scanner@v7
 
 
             - name: sonarqube scan  
