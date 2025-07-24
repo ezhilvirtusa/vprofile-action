@@ -22,10 +22,10 @@ jobs:
               uses: actions/checkout@v2
 
             - name: Build
-              uses: mvn test
+              run: mvn test
 
-            - name: checkstype
-              uses: mvn checkstyle:checkstyle
+            - name: checkstyle
+              run: mvn checkstyle:checkstyle
 
             - name: setup java
               uses: actions/setup-java@v3
