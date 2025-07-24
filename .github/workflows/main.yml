@@ -4,7 +4,7 @@ on: workflow_dispatch
 env:
     AWS_REGION: us-east-1
     ECR_REPOSITORY: mreg
-    ECR_CLUSTER: vprofile-eks
+    EKR_CLUSTER: vprofile-eks
 
 
 jobs:
